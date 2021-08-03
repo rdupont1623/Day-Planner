@@ -59,14 +59,27 @@ background-color: black;
     height: 40px;
 }
 
+.present {
+    background-color:#b3ffb3;
+}
+
+.past {
+    background-color: #ffb3b3;
+}
+
+.future {
+    background-color: whitesmoke;
+}
+
 
 /*Formating Birthday Timer */
 .timer-portion {
+    display:flex;
+    flex-direction: column;
     background-color: #b2c5ff;
     padding:10%;
     margin:5%;
-    border: black;
-    border-width: 3px;
+    border: 10px solid black;
 }
 .birthday-input {
     display:flex;
