@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Oswald:wght@500&display=swap');
-
-* {
-    
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
 
 /* formating Header Section */
 
@@ -16,7 +13,6 @@
     background-color: #ffe7b2;
     border-radius: 4px;
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
-    
 }
 .subheader {
     font-size: 80%;
@@ -33,12 +29,10 @@
     justify-content: space-around; 
     padding-bottom: 5%;   
 }
-
 hr {
 height: 5px;
 min-width: 60%;
 background-color: black;
-
 }
 
 
@@ -48,24 +42,21 @@ background-color: black;
 
 .main-chart {
     background-color: #f6b2ff;
-    display:flex;
-    flex-direction:column;
-    align-content:center;
     margin-top: 5%;
     border-radius: 5px;
 }
 
-. {
+.line {
     display:flex;
-    flex-direction:row;
-    align-items:center;
-    justify-content: center;
-
+    justify-content:space-around;
+    align-items: center;
+    padding-top: 3%;
+    font-family: 'Noto Sans', sans-serif;
 }
 
-.test input {
-    min-width:80%;
-    padding-right: 10px;
+.line input {
+    min-width: 80%;
+    height: 40px;
 }
 
 
