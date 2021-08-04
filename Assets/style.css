@@ -91,9 +91,13 @@ background-color: black;
     align-items: center;
 }
 
-.hidden {
+/*#hidden {
     display:none;
 }
+
+.seen {
+    display:block
+}*/
 
 .time-display {
     padding: 10%;
