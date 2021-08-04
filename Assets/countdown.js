@@ -20,12 +20,12 @@ $('#shipit').on("click", countMachine())
 
     const currentDay = new Date();
     const difference = userBirthday - currentDay;
-    console.log(difference)
+
     if(difference <= 0){
         timer.innerHTML = "Happy Birthday!!!"
         clearInterval(countMachine)
     return    
-    };
+    }
     if (difference <= -currentDay ) {
         timer.innerHTML = "Your birthday will come around next year!"
         clearInterval(countMachine)

@@ -78,6 +78,7 @@ background-color: black;
 
 /*Formating Birthday Timer */
 .timer-portion {
+    font-size:120% ;
     display:flex;
     flex-direction: column;
     background-color: #b2c5ff;
@@ -91,15 +92,14 @@ background-color: black;
     align-items: center;
 }
 
-/*#hidden {
-    display:none;
+#holder {
+    display:flex;
+    align-items:center;
 }
-
-.seen {
-    display:block
-}*/
 
 .time-display {
     padding: 10%;
+    align-self: center;
+    font-weight:bold;
 
 }
